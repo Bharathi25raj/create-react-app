@@ -1,0 +1,28 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "create-react-app from scratch",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bharathi25raj/create-react-app.git"
+  },
+  "author": "Bharathi Rajkumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bharathi25raj/create-react-app/issues"
+  },
+  "homepage": "https://github.com/Bharathi25raj/create-react-app#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browsersList":[
+    "last 2 versions"
+  ]
+}
