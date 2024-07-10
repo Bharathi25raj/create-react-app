@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Header tag outside root</h1>
+    <div id="root">
+        <h1>Bharu is here</h1>  <!-- This will be replace by react element -->
+        <!-- using html -->
+        <!-- <h1>Hello World!</h1> -->
+    </div>
+    <h1>Footer tag outside root</h1>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- using JS -->
+    <!-- <script>
+        const h1Element = document.createElement("h1");
+        h1Element.innerHTML = "Hello World!";
+
+        const root = document.getElementById("root");
+        root.appendChild(h1Element);
+    </script> -->
+
+    <!-- using React -->
+    <!-- <script>
+        const h1Element = React.createElement("h1", {id: "heading"}, "Hello World!");
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(h1Element);
+        console.log(h1Element);
+    </script> -->
+
+    <script src="App.js"></script>
+</body>
+</html>
